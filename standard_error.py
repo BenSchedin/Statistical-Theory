@@ -26,7 +26,7 @@ def main():
 
     plt.cla()
     plt.plot(x, y)
-    plt.title("Standard Error of the Mean\nn = {}, sigma = {}".format(str(n), str(sigma)))
+    plt.title("Standard Error of the Mean\nn = {}, sigma = {}".format(n, sigma))
     plt.xlabel("Sample Size")
     plt.ylabel("Standard Error")
     plt.grid()
